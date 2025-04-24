@@ -28,7 +28,7 @@ const port = process.env.PORT || 7000;
 
 app.use(
 	cors({
-		origin: ["http://localhost:5174", "https://ayotto.netlify.app"],
+		origin: ["http://localhost:5173", "https://ayotto-test-client.vercel.app"],
 		credentials: true,
 	})
 );
