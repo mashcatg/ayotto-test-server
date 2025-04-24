@@ -30,8 +30,8 @@ app.use(
 	cors({
 		origin: [
 		  "http://localhost:5173",
-		  "https://ayotto-test-client.vercel.app",
-		  "http://ayotto-test-client.vercel.app"
+		  "https://ayotto-beta-test.netlify.app",
+		  "http://ayotto-beta-test.netlify.app"
 		],
 		credentials: true,
 		methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
