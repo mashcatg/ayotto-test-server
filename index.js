@@ -28,7 +28,7 @@ const port = process.env.PORT || 7000;
 
 app.use(
 	cors({
-		origin: ["http://localhost:5173", "https://ayotto-test-client.vercel.app"],
+		origin: ["http://localhost:5173", "https://ayotto-test-client.vercel.app", "http://ayotto-test-client.vercel.app"],
 		credentials: true,
 	})
 );
