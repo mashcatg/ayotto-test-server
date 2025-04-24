@@ -13,9 +13,11 @@ services:
         sync: false
       - key: JWT_SECRET
         sync: false
-      - key: CLOUDINARY_API_KEY
+      - key: smsUrl
         sync: false
-      - key: CLOUDINARY_API_SECRET
+      - key: smsApiKey
         sync: false
-      - key: CLOUDINARY_CLOUD_NAME
+      - key: smsSenderId
+        sync: false
+      - key: PORT
         sync: false
